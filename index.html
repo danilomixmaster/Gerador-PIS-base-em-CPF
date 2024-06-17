@@ -12,8 +12,8 @@
       <h1>Gerador de PIS com base em CPF</h1>
       <label for="CPF">Digite o CPF:</label>
       <input type="text" id="CPF" maxlength="14" placeholder="Somente números" oninput="formatCPF(this)" onkeypress="if (event.keyCode === 13) gerarPIS()">
-      <button onclick="gerarPIS()">Gerar PIS</button>
       <p id="resultado"></p>
+      <button onclick="gerarPIS()">Gerar PIS</button>
       <p id="error-message">
     </div>
   </div>
