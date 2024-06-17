@@ -1,0 +1,56 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f0f0f0; /* Nova cor de fundo */
+  }
+  
+  h1 {
+    font-size: 2rem; /* Aumente o tamanho do título */
+    font-weight: bold; /* Deixe o título mais grosso */
+    margin-bottom: 30px; /* Adicione mais espaço entre o título e o resto do conteúdo */
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+  
+  label {
+    font-size: 0.875rem;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #0093b8; /* Nova cor do botão */
+    color: #ffffff; /* Cor branca para o texto */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+ .frame {
+    width: 550px;
+    height: auto;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); /* Efeito de sombra */
+    margin: 50px auto; /* Centralizar a moldura */
+
+  }
+  
+  #container {
+    padding: 20px; /* Adicione padding ao container */
+    text-align: center;
+  }
